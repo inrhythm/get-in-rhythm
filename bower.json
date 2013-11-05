@@ -1,0 +1,25 @@
+{
+  "name": "get-in-rhythm",
+  "version": "0.0.0",
+  "private": true,
+  "authors": [
+    "James Lee <amesee@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "~1.0.8",
+    "bootstrap": "~3.0.0",
+    "jquery": "~2.0.3",
+    "requirejs": "~2.1.9",
+    "backbone": "~1.1.0",
+    "text": "~2.0.10",
+    "underscore": "~1.5.2",
+    "backbone.localStorage": "~1.1.7",
+    "momentjs": "~2.3.1"
+  },
+  "devDependencies": {
+    "jasmine": "v2.0.0.rc3",
+    "sinon": "~1.7.3"
+  }
+}

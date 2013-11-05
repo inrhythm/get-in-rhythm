@@ -1,0 +1,19 @@
+{
+  "name": "get-in-rhythm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "./node_modules/.bin/bower install"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "moment": "~2.3.1",
+    "sassafras": "0.0.1",
+    "consolidate": "~0.9.1",
+    "handlebars": "~1.1.1"
+  },
+  "devDependencies": {
+    "bower": "~1.2.7"
+  }
+}
