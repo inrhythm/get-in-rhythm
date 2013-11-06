@@ -20,6 +20,7 @@ function render(view) {
 }
 
 function locationsForPage(page) {
+  page = page || 1;
   var locations = fixture('locations');
   var items = 25;
   var begin = (page - 1) * items;
@@ -91,9 +92,14 @@ app.get('/locations', function(req, res) {
 app.get('/specs', render('index'));
 
 // JSON api endpoints
-app.get('/api/locations', json(fixture('locations')));
 app.get('/api/featureds', json(fixture('featureds')));
 app.get('/api/blogs', json(fixture('blogs')));
+app.get('/api/tags', json(fixture('tags')));
+
+app.get('/api/locations', function(req, res) {
+  var locations = locationsForPage(req.query.page);
+  res.json(locations);
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
