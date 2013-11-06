@@ -2,13 +2,32 @@
 
 Starter Kit For Your Training Exercises
 
+## Prerequisites
+
+You will need the following already installed:
+
+* [node][]
+* [bower][]
+* [ruby][]
+* [sass][]
+
+[node]: http://nodejs.org/
+[bower]: https://github.com/bower/bower
+[ruby]: https://www.ruby-lang.org/en/downloads/
+[sass]: http://sass-lang.com/install
+
 ## Getting Started
 
+Log into your github account and fork this repository. Then clone the fork to
+your local development machine and install the packages.
+
 ```sh
-git clone https://github.com/amesee/get-in-rhythm.git
+git clone https://github.com/<your-github-username>/get-in-rhythm.git
 cd get-in-rhythm
 npm install
 ```
+
+Don't forget to push your commits as you progress.
 
 ## Where To Create Files
 
@@ -57,9 +76,10 @@ JSON API endpoints are available at:
 * /api/featureds
 * /api/blogs
 * /api/locations
+* /api/locations?page=2
 * /api/tags
 
-See `fixtures` directory to see exactly what is served.
+See `fixtures` directory.
 
 ### Public
 
