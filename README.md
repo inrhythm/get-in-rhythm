@@ -1,6 +1,6 @@
 # Get In Rhythm
 
-Starter Kit For Your Training Exercises
+Boilerplate Application for InRhythm Exercises
 
 ## Prerequisites
 
